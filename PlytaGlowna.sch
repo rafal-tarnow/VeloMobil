@@ -1214,7 +1214,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <label x="147.32" y="182.88" size="2.54" layer="95" rot="R90"/>
 <label x="264.16" y="147.32" size="2.54" layer="95" rot="R90"/>
 <label x="467.36" y="177.8" size="2.54" layer="95"/>
-<label x="469.9" y="93.98" size="2.54" layer="95"/>
+<label x="449.58" y="93.98" size="2.54" layer="95"/>
 <wire x1="269.24" y1="182.88" x2="269.24" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="J11" gate="-5" pin="S"/>
 <pinref part="J12" gate="-6" pin="S"/>
@@ -1334,7 +1334,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <wire x1="436.88" y1="132.08" x2="436.88" y2="78.74" width="0.1524" layer="91"/>
 <label x="320.04" y="134.62" size="2.54" layer="95" rot="R90"/>
 <label x="347.98" y="134.62" size="2.54" layer="95" rot="R90"/>
-<label x="472.44" y="78.74" size="2.54" layer="95"/>
+<label x="441.96" y="78.74" size="2.54" layer="95"/>
 <pinref part="J6" gate="-2" pin="S"/>
 <pinref part="J7" gate="-2" pin="S"/>
 <pinref part="D3" gate="1" pin="A"/>
@@ -1352,18 +1352,20 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <pinref part="J4" gate="-2" pin="S"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="STOP_DIODE" class="0">
 <segment>
 <pinref part="D3" gate="1" pin="C"/>
 <pinref part="J10" gate="-4" pin="S"/>
 <wire x1="457.2" y1="78.74" x2="482.6" y2="78.74" width="0.1524" layer="91"/>
+<label x="467.36" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="MIJANIA_DIODE" class="0">
 <segment>
 <pinref part="D4" gate="1" pin="C"/>
 <pinref part="J10" gate="-2" pin="S"/>
 <wire x1="467.36" y1="93.98" x2="482.6" y2="93.98" width="0.1524" layer="91"/>
+<label x="472.44" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
