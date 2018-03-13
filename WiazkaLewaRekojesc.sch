@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -1333,7 +1334,7 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="124.46" y1="106.68" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="KLAKSON(+12V)" class="0">
+<net name="KLAKSON(+12V/ST)" class="0">
 <segment>
 <wire x1="124.46" y1="88.9" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="86.36" x2="73.66" y2="86.36" width="0.1524" layer="91"/>
